@@ -1,8 +1,23 @@
-<div.post image{
-    background: black;
-    margin:auto
+.top {
+    display: flex;
+    justify-content: space-between;
 }
-body{
-    background: gray;
-    margin: 0; 
+.center {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+/* img {
+    width: 346.67px;
+    height: 250px;
+    object-fit: fill;
+  } */
+body {
+    background-color: gainsboro;
+}
+img {
+    object-fit: contain;
+    width: 100%;
 }
